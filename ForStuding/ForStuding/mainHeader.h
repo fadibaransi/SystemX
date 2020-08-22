@@ -17,5 +17,5 @@ void CalcShpereVolume();
 void PointsGame(int);
 void WriteLetter();
 void PlayWithStrings();
-void countStringWords();
+void countStringLetters();
 

@@ -156,7 +156,7 @@ void PlayWithStrings()
 	switch (input)
 	{
 	case 1 :
-		countStringWords();
+		countStringLetters();
 		break;
 	default:
 		cout << "Invalid input!" << endl;
