@@ -2,6 +2,9 @@
 
 #include <cstdlib>
 #include <string>
+#include <iostream>
+
+using namespace std;
 //this header include all the needed methods for this program
 void calculator();
 void Gaming();
@@ -13,4 +16,6 @@ void CalcSphereArea();
 void CalcShpereVolume();
 void PointsGame(int);
 void WriteLetter();
+void PlayWithStrings();
+void countStringWords();
 

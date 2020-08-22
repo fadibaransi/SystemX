@@ -13,6 +13,7 @@ int main()
 	cout << "\n1 - Open Calculator.\n";
 	cout << "2 - Play a game.\n";
 	cout << "3 - Write a letter.\n";
+	cout << "4 - Play with strings\n";
 	cout << "0 - To EXIT\n";
 	cout << "Your choose : ";
 	cin >> input;
@@ -30,6 +31,10 @@ int main()
 		case 3:
 			WriteLetter();
 			break;
+		case 4:
+			PlayWithStrings();
+			break;
+
 
 		default:
 			cout << "\nThis is a invalid input!\nTry Again." << endl;
@@ -41,6 +46,7 @@ int main()
 		cout << "\n1 - Open Calculator.\n";
 		cout << "2 - Play a game.\n";
 		cout << "3 - Write a letter.\n";
+		cout << "4 - Play with strings\n";
 		cout << "0 - To EXIT\n";
 		cout << "Your choose : ";
 		cin >> input;

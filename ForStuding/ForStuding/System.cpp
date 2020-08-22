@@ -146,3 +146,22 @@ void WriteLetter()
 	fs << text << endl;
 	fs.close();
 }
+
+void PlayWithStrings()
+{
+	cout << "Hey To StringX\nPlease choose your way:" << endl;
+	cout << "1 - Counts letter in given string" << endl;
+	int input;
+	cin >> input;
+	switch (input)
+	{
+	case 1 :
+		countStringWords();
+		break;
+	default:
+		cout << "Invalid input!" << endl;
+
+	}
+
+
+}
